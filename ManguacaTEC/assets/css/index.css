@@ -1,0 +1,99 @@
+@import "/assets/css/global.css"; 
+@import "./navbar.css";
+@import "./footer.css";
+.links {
+    margin-top: 3rem;
+}
+
+.beer-card{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beer-card img{
+    width: 100%;
+    filter: none;
+    aspect-ratio: 1.8;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: filter .25s;
+}
+
+.beer-card:hover img{
+    /* border: px solid black; */
+    transition: border .25s;
+
+}
+
+.beer-card  a { 
+    text-decoration: none;
+    color: white;
+}
+.beer-card:hover a {
+    color: yellow;
+    transition: color .25s;
+}
+.beer-card > figcaption{
+    text-align: center;
+    background-color: rgba(101, 61, 15, .7);
+    /* margin-top: 15px; */
+    padding: 10px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;    
+    border-radius: 5px;
+    transition: background-color .25s, color .25s;
+
+}
+
+.beer-card:hover figcaption {
+    background-color: rgba(34, 20, 4, 0.836) ;
+    color:yellow;
+    
+    transition: background-color .25s, color .40s;
+}
+
+.beer-card figcaption a h3 {
+    font-family: "Rubik Dirt", sans-serif;
+}
+
+
+.beer-card figcaption a p {
+    font-family: "Anton", sans-serif;
+}
+
+
+@media screen and (min-width:786px) { 
+    
+    .banner{
+        margin-top: 48px;
+        width: 100%;
+        height: 90px;
+        background-color: #543107;
+        opacity: .6;
+    }
+
+    .logo{
+        width: 250px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .beer-card figcaption{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:992px) { 
+    .beer-card figcaption{
+        margin-top: 15px;
+    }
+}

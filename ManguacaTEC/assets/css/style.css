@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Dirt&display=swap');/* Fontes:: Rubik Dirt, */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #C9AA8F;
+}
+
+h1, h3, p {
+    font-size: 15px;
+    color: white;
+}
+
+.serveja,
+.bauernfest, 
+.lupulando,
+.fest_artesanal,
+.deguste,
+.mondial {
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.banner {
+    margin-top: 75px;
+    width: 100vw;
+    height: 150px;
+    background-color: #543107;
+    opacity: .6;
+}
+
+.logo {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transition: 0.3s;
+    width: 450px;
+}
+
+.pl_eventos {
+    height: 80%;
+    width: 100vw;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serveja {
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.serveja img {
+    height: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lupulando {
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.lupulando img {
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bauernfest {
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.bauernfest img {
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sl_eventos {
+    height: 80%;
+    width: 100vw;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 55%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fest_artesanal {
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.fest_artesanal img {
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.deguste {
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.deguste img {
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.mondial {
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #543107;
+    border-radius: 10px;
+}
+
+.mondial img {
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.datas_com {
+    border: 2px solid red;
+    width: 100vw;
+    height: 90%;
+    margin-top: 100%;
+    background-color: #543107;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_section {
+    border: 2px solid green;
+    width: 80%;
+    height: 20%;
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_section h1 {
+    font-size: 40px;
+}
+
+.datas {
+    border: 2px solid green;
+    position: absolute;
+    margin-top: 11%;
+    width: 99%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.data_1 {
+    border: 2px solid yellow;
+    width: 20%;
+    height: 100%;
+}
+
+.data_2 {
+    border: 2px solid yellow;
+    width: 20%;
+    height: 100%;
+}
+
+.data_3 {
+    border: 2px solid yellow;
+    width: 20%;
+    height: 100%;
+}
+
+.data_4 {
+    border: 2px solid yellow;
+    width: 20%;
+    height: 100%;
+}

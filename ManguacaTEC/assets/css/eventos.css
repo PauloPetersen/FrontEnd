@@ -1,0 +1,147 @@
+@import "/assets/css/bootstrap.min.css";
+
+@import "./navbar.css";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Dirt&display=swap');/* Fontes:: Rubik Dirt, */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#button-up {
+    visibility: hidden;
+    position: fixed;
+    background-color: rgba(84, 49, 7, 0.9);
+    width: 5em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    bottom: 2em;
+    right: 2em;
+    transition: all .25s;
+}
+#button-up img {
+    filter: invert(87%) sepia(35%) saturate(3620%) hue-rotate(344deg) brightness(96%) contrast(94%);
+}
+
+body{
+    background-color: rgba(101, 61, 15, .75);
+    width: 100vw;
+    height: 100vh;
+}
+.quadradomenu{
+    margin-top: 2em;
+    /* border: 2px solid blue; */
+    width: 80vw;
+    height: 70%;
+    /* background-color: #543107; */
+    /* opacity: .6; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(101, 61, 15, .65);
+    border-radius: 15px;
+}
+
+nav ul{
+    /* border: 2px solid red; */
+    width: 80vw;
+    height: 145px;
+    list-style: none;
+    /* text-decoration: none; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav li{
+    width: 25%;
+    text-align: center;
+}
+
+.margem{
+    /* border: 2px solid magenta; */
+    height: 15em;
+}
+
+.eventosInfo{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    padding-top: 2em;
+}
+
+.info-wrapper {
+    background-color: rgba(101, 61, 15, .9);
+    border-radius: 25px;
+    width: 100%;
+}
+
+.evento-wrapper {
+    padding: 1em;
+    color: white;
+}
+.evento-wrapper h3, h5 {
+    font-family: "Rubik Dirt", sans-serif;
+
+}
+
+.evento-wrapper p {
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+.imagemEvento {
+    width: 100%;
+    aspect-ratio: 1.8;
+    /* object-fit: ; */
+    display: flex;
+    justify-content: center;
+    margin: 0 1em 1em 0;
+    border-radius: 25px;
+}
+
+
+.evento-link {
+    font-family: "Rubik Dirt", sans-serif;
+}
+
+.evento-link:hover {
+    color:yellow;
+}
+
+.botao{
+    width: 150px;
+    height: 25px;
+    float: right;
+    margin-right: 1em;
+    background-color: rgb(255, 255, 255,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #543107;
+    font-weight: bolder;
+    border: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+    .imagemEvento {
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,73 @@
+@import "./global.css";
+@import "./navbar.css";
+
+.login-wrapper { 
+    position: absolute;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.login-box {
+    width: calc(18em + padding);
+    height: 20em;
+    background-color: #543107;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    color:white;
+    padding:2em .5em;
+}
+
+.login-box > .login-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+.img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30%;
+}
+
+.login-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70%;
+}
+
+.input-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.input-wrapper > label {
+    display: inline-block;
+    width: 5em;
+
+    text-align: center;
+}
+.input-wrapper > input { 
+    border-radius: 15px;
+    padding: 0 .5em;
+}
+
+.buttons { 
+    margin-top: 15px;
+}
